@@ -46,7 +46,7 @@ To get started with the Loan Management System, follow these steps:
 1.  **Clone the repository:**
 
     ```
-    git clone https://github.com/theanantchoubey/loan-management-system.git
+    git clone https://github.com/Sravani-bit/loan-management-system.git
     ```
 
 2.  **Install the project dependencies & run Frontend:**
@@ -164,6 +164,3 @@ The Loan Management System (LMS) is built using a combination of modern web deve
 
 The Loan Management System provides APIs for managing loans and repayments. For detailed API documentation, refer to the [API Documentation](/Loan%20Management%20System.postman_collection.json) file.
 
-## Contributing
-
-Contributions are welcome! If you want to contribute to this project, please contact - [anantchoubey039@gmail.com](mailto:anantchoubey039@gmail.com)
