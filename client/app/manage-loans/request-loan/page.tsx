@@ -1,16 +1,16 @@
 "use client";
 import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
-import { Metadata } from "next";
+//import { Metadata } from "next";
 import React, { useEffect, useState } from "react";
 import Cookies from "js-cookie";
 import { useRouter } from "next/navigation";
 const token = Cookies.get("user_token");
 
-export const metadata: Metadata = {
-  title: "Loan Request form",
-  description: "Request a loan from the Admins",
+//export const metadata: Metadata = {
+  //title: "Loan Request form",
+  //description: "Request a loan from the Admins",
   // other metadata
-};
+//};
 
 const RequestLoan = () => {
   const router = useRouter();
