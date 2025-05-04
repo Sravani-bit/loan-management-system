@@ -1,6 +1,6 @@
 "use client";
 import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
-import { Metadata } from "next";
+// import { Metadata } from "next";
 import React, { useEffect, useState } from "react";
 import Cookies from "js-cookie";
 import { useSearchParams } from "next/navigation";
@@ -20,11 +20,11 @@ interface Loan {
   // Add other loan details here
 }
 
-export const metadata: Metadata = {
-  title: "Pay your Loan",
-  description: "This is the page to payout your loan.",
-  // other metadata
-};
+// export const metadata: Metadata = {
+//   title: "Pay your Loan",
+//   description: "This is the page to payout your loan.",
+//   // other metadata
+// };
 const token = Cookies.get("user_token");
 
 const PayLoan = () => {
