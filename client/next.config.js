@@ -4,7 +4,7 @@ const nextConfig = {
     return [
       {
         source: "/api/:path*", // Match any API route
-        destination: "http://localhost:8000/api/:path*", // Proxy to your API server
+        destination: "https://loan-management-system-n1qm.onrender.com/api/:path*", // Proxy to your API server
       },
     ];
   },
